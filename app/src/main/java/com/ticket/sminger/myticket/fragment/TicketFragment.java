@@ -77,6 +77,7 @@ public class TicketFragment extends BaseFragment{
     }
 
     public void initData() {
+        mTextView.setVisibility(View.GONE);
         mCurrentSiteID = getArguments().getInt(ARG_SITE_NUMBER);
         FragmentMgr.getTicketData(mHandler, mCurrentSiteID);
 
