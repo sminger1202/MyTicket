@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BaseNetBean implements INetBean{
-	public static String HOST = OFFICIAL_USER_HOST ;
+	public static String HOST = OFFICIAL_USER_HOST_TEST ;
 
 	public  List<BasicNameValuePair> sParams = new ArrayList<>() ;
 

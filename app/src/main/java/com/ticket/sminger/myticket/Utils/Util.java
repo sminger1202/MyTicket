@@ -22,9 +22,9 @@ import java.security.NoSuchAlgorithmException;
 public class Util {
 
     /**
-     * TODO ÅÐ¶ÏÍøÂç×´Ì¬ÊÇ·ñ¿ÉÓÃ
+     * TODO ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½Ç·ï¿½ï¿½ï¿½ï¿½
      *
-     * @return true: ÍøÂç¿ÉÓÃ ; false: ÍøÂç²»¿ÉÓÃ
+     * @return true: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ; false: ï¿½ï¿½ï¿½ç²»ï¿½ï¿½ï¿½ï¿½
      */
     public static boolean hasInternet() {
         ConnectivityManager m = (ConnectivityManager) TicketApplication.context
@@ -62,7 +62,7 @@ public class Util {
                 .getSystemService(Context.ACTIVITY_SERVICE)).getMemoryClass();
     }
 
-    /** »ñµÃMD5´® */
+    /** ï¿½ï¿½ï¿½MD5ï¿½ï¿½ */
     public static String md5(final String s) {
         try {
             MessageDigest digest = java.security.MessageDigest
@@ -84,10 +84,10 @@ public class Util {
     }
 
     /**
-     * ¶Ôurl½øÐÐutf-8×ªÒå
+     * ï¿½ï¿½urlï¿½ï¿½ï¿½ï¿½utf-8×ªï¿½ï¿½
      *
      * @param s
-     *            ×Ö·û´®
+     *            ï¿½Ö·ï¿½ï¿½ï¿½
      * @return
      */
     public static String URLEncoder(String s) {
@@ -104,7 +104,7 @@ public class Util {
     }
 
     /**
-     * ³õ´ÎÔËÐÐ£¬»ñµÃGUID
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½GUID
      *
      * @return
      */

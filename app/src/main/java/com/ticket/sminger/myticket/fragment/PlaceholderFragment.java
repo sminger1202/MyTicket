@@ -16,7 +16,7 @@ import com.ticket.sminger.myticket.adapter.ticketAdapter;
 /**
      * A placeholder fragment containing a simple view.
      */
-public class PlaceholderFragment extends Fragment {
+public class PlaceholderFragment extends BaseFragment {
     /**
      * The fragment argument representing the section number for this
      * fragment.
@@ -59,9 +59,9 @@ public class PlaceholderFragment extends Fragment {
         ((MainActivity) activity).onSectionAttached(
                 getArguments().getInt(ARG_SECTION_NUMBER));
     }
-    public static void initView(View rootView) {
+    public void initView(View rootView) {
         mListView = (ListView)rootView.findViewById(R.id.ticketList);
-        mListAdapter = new ticketAdapter();
+//        mListAdapter = new ticketAdapter(getActivity(), this);
         mListView.setAdapter(mListAdapter);
     }
 

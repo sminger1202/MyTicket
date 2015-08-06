@@ -13,7 +13,7 @@ public interface INetBean{
 	public static final String HTTPGET = "GET" ;
 	public static final String HTTPPOST = "POST" ;
 
-	public static final String OFFICIAL_USER_HOST_TEST = "http://test1.api.3g.tudou.com"  ;
+	public static final String OFFICIAL_USER_HOST_TEST = "http://10.155.6.17:8000"; // "http://test1.api.3g.tudou.com"  ;
 	public static final String OFFICIAL_USER_HOST = "http://api.3g.tudou.com"  ;
 	public static String OFFICIAL_TUDOU_USER_HOST = "http://user.api.3g.tudou.com";
 	public static final String OFFICIAL_REC_API = "http://rec.api.3g.tudou.com";

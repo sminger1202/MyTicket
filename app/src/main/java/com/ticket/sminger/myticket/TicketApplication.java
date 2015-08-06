@@ -38,6 +38,8 @@ public class TicketApplication extends MultiDexApplication {
         initVersionInfo() ;
 
         initPreferences();
+
+        super.onCreate();
     }
 
     private void initVersionInfo() {
